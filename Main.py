@@ -4,7 +4,7 @@ import streamlit as st
 from sklearn.preprocessing import StandardScaler
 
 # Charger le modèle
-data = pickle.load(open(r'C:\Users\helqa\Documents\Breast_Cancer.sav', 'rb'))
+data = pickle.load(open('Breast_Cancer.sav', 'rb'))
 
 # Titre de l'application
 st.title("Breast Cancer Prediction App")
